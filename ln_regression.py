@@ -13,9 +13,9 @@ df = pd.read_sql_query(query, conn)
 conn.close()
 
 # --- Параметры для фильтрации данных ---
-country = 'US'  # Пример страны
-job = 'Data Scientist'  # Пример должности
-level = 'SE'  # Пример SE, MI ,EX,EN
+country = 'IN'  # Пример страны
+job = 'Data Analyst'  # Пример должности
+level = 'EN'  # Пример SE, MI ,EX,EN
 # ----------------------------------------
 
 # Фильтрация данных по стране, должности И ГРЕЙДУ
